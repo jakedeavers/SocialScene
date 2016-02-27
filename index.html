@@ -12,29 +12,21 @@
   <body>
 
     <!-- Modals; Edit with care -->
-    <div id="img1" style="display:none;">
 
-      <h2>Example Functional Form</h2>
 
-      <form action="http://formspree.io/jakedeavers@wustl.edu" method="POST">
-        <div>
-          <label>name</label>
-          <input type="text" name="name" value="your name">
-        </div>
-        <div>
-          <label>email</label>
-          <input type="text" name="mail" value="your email">
-        </div>
-        <div>
-          <label>Question</label>
-          <input type="text" name="Question" value="your question" size="50">
-        </div>
-        <div>
-          <input type="submit" value="Send">
-        </div>
-      </form>
-
-    </div>
+<h2>Send e-mail to someone@example.com:</h2>
+<body>
+<form action="MAILTO:Jake Deavers@wustl.edu" method="post" enctype="text/plain">
+Name:<br>
+<input type="text" name="name" value="your name"><br>
+E-mail:<br>
+<input type="text" name="mail" value="your email"><br>
+Question:<br>
+<input type="text" name="Question:" value="your question" size="50"><br><br>
+<input type="submit" value="Send">
+<input type="reset" value="Reset">
+</form>
+</body>
 
     <div class="container">
 
